@@ -1,0 +1,8 @@
+file to run: ./demo.py -e -g 
+demo.py is where main control loop and setup is
+mediapipe_utils.py contains the function recognize_gesture
+Here, the different gestures are computed based on the given hand model and state
+Hand model can be found at https://github.com/geaxgx/depthai_hand_tracker/raw/97731232fffd467e8de2c3a34ab8382962bb385e/img/hand_landmarks.png
+Acces nodes based on Hand structure, perfom any operation on them and return a gesture
+demo.py is set up to print recognized hand gestures
+demo.py has deactivated code in it for graphical interface, to use comment in everything containing key and renderer
