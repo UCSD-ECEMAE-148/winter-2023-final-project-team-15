@@ -15,7 +15,7 @@ Our car setup used a large piece of acrylic to connect across the RC car strut t
 
 Our camera setup was originally a rigid mount on the front of the car, but as we tested our initial Donkey Car laps on the outdoor track we recognized the need for adjusting our angle to detect the lines better. This led to our tall hinging mount that gave us better viewing angles that we could set up within seconds for testing.
 
-![carSetup](carSetup.jpg)
+![initialCar](initialCar.jpg)
 ![finalCarSetup](finalCarSetup.jpg)
 
 ## **Software**
