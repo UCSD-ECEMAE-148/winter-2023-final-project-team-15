@@ -7,7 +7,17 @@ Below are examples of how our hand detection tracker will recognize our gestures
 ![left](IMG_8458.png)
 
 ## **Car Physical Setup**
-Our car setup used a large piece of acrylic to connect across the RC car strut towers to support all of our electronics. The acrylic had two grooves along the entire length that were 3 inches apart, allowing us to reconfigure our electronics layout as the class progressed. We knew we would be given different devices through the length of the class, so this modular setup gave us the ability to adapt to them quickly rather than redesigning everytime. Our camera setup was originally a rigid mount on the front of the car, but as we tested our initial Donkey Car laps on the outdoor track we recognized the need for adjusting our angle to detect the lines better. This led to our tall hinging mount that gave us better viewing angles that we could set up within seconds for testing.
+Our car setup used a large piece of acrylic to connect across the RC car strut towers to support all of our electronics. The acrylic had two grooves along the entire length that were 3 inches apart, allowing us to reconfigure our electronics layout as the class progressed. We knew we would be given different devices through the length of the class, so this modular setup gave us the ability to adapt to them quickly rather than redesigning everytime.
+
+![mountOne](mountONe.png)
+
+![mountTwo](mountTwo.png)
+
+Our camera setup was originally a rigid mount on the front of the car, but as we tested our initial Donkey Car laps on the outdoor track we recognized the need for adjusting our angle to detect the lines better. This led to our tall hinging mount that gave us better viewing angles that we could set up within seconds for testing.
+
+![carSetup](carSetup.jpg)
+
+![finalCarSetup](finalCarSetup.jpg)
 
 ## **Software**
 ### depthai software pack
