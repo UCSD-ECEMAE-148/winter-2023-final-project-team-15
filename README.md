@@ -28,12 +28,13 @@ To detect hand gestures, we use the Luxonis DepthAI Software on the Luxonis OAK-
 - pointing the index finger with thumb outstreched left or right to change direction of steering 
 ### d5 GPS-control
 In the d5 subdirectory, we used the donkeycar interfaces to program a simple GPS training and following routine to generate a path for the car to follow. This part of the project is still partly in development, as currently only the speed can be varied with hand signals.
-### DonkeyCar software
+### DonkeyCar Software
 We use the preconfigured DonkeyCar software package to facilitate control and interfacing of the Jetson nano embedded system with the rest of the RC car. We implemented a special interrupt in the signal chain to be able to pass in different speed values, which are first stored by the modified DepthAI software pack into the file finalproject/comm.txt as a simple string command corresponding to the recognized hand sign. which is then read into the DonkeyCar VESC control subroutine to change the throttle values dynamically. 
 ## Operation
 One can either run the depthai software on its own with the VESC class implemented right in the file demo_bdf.py by just executing it with all lines commented in, or, if it is desired to just utilize the throttle values, comment out the VESC related code, run the demo_bpf.py and then simultaneaously run the d5 donkeycar code with ./python manage.py drive. Then, steering will be controlled by the GPS following algorithm, while the speed is controlled via the detected hand signals.
 
 [Basic Command Gesture](https://youtube.com/shorts/nPKbQDD19eI?feature=share)
+[Throttle Changing Values](https://youtube.com/shorts/X83BDGUgH50?feature=share)
 
 # **Team 15: Boba Team**
 - Reinwei Bai
