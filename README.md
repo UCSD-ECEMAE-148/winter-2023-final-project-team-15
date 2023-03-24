@@ -1,7 +1,10 @@
 # Repository for Team 15 of the 2023 Winter class of MAE ECE 148 at UCSD
 Our Final Project uses the AI controlled autonomous vehicle developed in early course sections to implement a driving protocol based on hand signals. To do this, we utilize the GPS-tracking and following code developed/given in class, and combined it with the DepthAI gesture recognition software pack. Our idea developed from our interest in the OAK-D Lite camera’s stereo vision system and ability to run DepthAI within the camera for processing. To use both of these functions, we chose to run a hand detection program that uses Google Mediapipe to combine these features in a unique project that no one on our team had tried before. 
 
+Below are examples of how our hand detection tracker will recognize our gestures
 ![stop](IMG_8457.png)
+
+![left](IMG_8458.png)
 
 ## **Car Physical Setup**
 Our car setup used a large piece of acrylic to connect across the RC car strut towers to support all of our electronics. The acrylic had two grooves along the entire length that were 3 inches apart, allowing us to reconfigure our electronics layout as the class progressed. We knew we would be given different devices through the length of the class, so this modular setup gave us the ability to adapt to them quickly rather than redesigning everytime. Our camera setup was originally a rigid mount on the front of the car, but as we tested our initial Donkey Car laps on the outdoor track we recognized the need for adjusting our angle to detect the lines better. This led to our tall hinging mount that gave us better viewing angles that we could set up within seconds for testing.
