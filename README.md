@@ -33,6 +33,7 @@ We use the preconfigured DonkeyCar software package to facilitate control and in
 One can either run the depthai software on its own with the VESC class implemented right in the file demo_bdf.py by just executing it with all lines commented in, or, if it is desired to just utilize the throttle values, comment out the VESC related code, run the demo_bpf.py and then simultaneaously run the d5 donkeycar code with ./python manage.py drive. Then, steering will be controlled by the GPS following algorithm, while the speed is controlled via the detected hand signals.
 
 [Basic Command Gesture](https://youtube.com/shorts/nPKbQDD19eI?feature=share)
+
 [Throttle Changing Values](https://youtube.com/shorts/X83BDGUgH50?feature=share)
 
 # **Team 15: Boba Team**
